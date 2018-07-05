@@ -43,15 +43,15 @@ public class EliteLoginPage extends TestBase{
 		
 	}
 	
-	public void eliteLogin() {
+	public EliteMyWebcastPage eliteLogin() {
 		elite_username.sendKeys(prop.getProperty("elite_username"));
 		elite_password.sendKeys(prop.getProperty("elite_password"));
 		elite_login.click();
+		return new EliteMyWebcastPage();
 		
 	}
 	
 
-	
 	
 	
 	

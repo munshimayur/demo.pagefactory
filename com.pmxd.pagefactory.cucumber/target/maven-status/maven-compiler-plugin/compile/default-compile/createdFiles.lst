@@ -1,6 +1,0 @@
-com\pmxd\qa\pages\EliteLoginPage.class
-com\pmxd\qa\pages\EliteOverviewPage.class
-com\pmxd\qa\base\TestBase.class
-com\pmxd\qa\pages\EliteMyWebcastPage.class
-com\pmxd\qa\pages\EliteCreateEventPage.class
-com\pmxd\qa\util\TestUtil.class

@@ -16,8 +16,6 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 		
-
-	
 	public TestBase()  {
 		
 		
