@@ -10,9 +10,8 @@ public class EliteMyWebcastPage extends TestBase {
 	
 	@FindBy(xpath="//img [contains(@src, \"wce-logo.png\")]")
 	WebElement MyWebcast_Logo;
-	
 
-	
+
 	public EliteMyWebcastPage() {
 		
 		PageFactory.initElements(driver, this);
