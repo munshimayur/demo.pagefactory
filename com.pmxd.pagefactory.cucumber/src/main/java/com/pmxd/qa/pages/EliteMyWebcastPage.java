@@ -23,8 +23,8 @@ public class EliteMyWebcastPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void selectClient(WebElement DropdownLocator, String SelectValue ) {
-		com.pmxd.qa.util.TestUtil.ddSelect(DropdownLocator, SelectValue);
+	public void selectClient() {
+		com.pmxd.qa.util.TestUtil.ddSelect(ClientDropdown, "PMXDMPD");
 	}
 	
 

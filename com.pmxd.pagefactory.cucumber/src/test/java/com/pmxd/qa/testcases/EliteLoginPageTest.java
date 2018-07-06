@@ -11,7 +11,7 @@ import junit.framework.Assert;
 
 public class EliteLoginPageTest extends TestBase {
 	
-	EliteLoginPage EliteLoginPage;
+	EliteLoginPage eliteLoginPage;
 	
 	public EliteLoginPageTest() {
 		super();
@@ -20,26 +20,26 @@ public class EliteLoginPageTest extends TestBase {
 	@BeforeMethod 
 	public void setup(){
 		initialization();
-		EliteLoginPage = new EliteLoginPage();
+		eliteLoginPage = new EliteLoginPage();
 		
 	}
 	
   @Test (priority = 1)
   public void titleTest() {
-	 String val= EliteLoginPage.validateEliteLoginPageTitle();
+	 String val= eliteLoginPage.validateEliteLoginPageTitle();
 	 Assert.assertEquals("Login | Webcast Elite", val);	  
   }
   
   @Test (priority = 2)
   public void logoTest() {
-	  boolean val=EliteLoginPage.validateEliteLogo();
+	  boolean val=eliteLoginPage.validateEliteLogo();
 	  Assert.assertTrue(val);
 			  
   }
   
   @Test (priority = 3)
   public void loginTest() {
-	  EliteLoginPage.eliteLogin();
+	  eliteLoginPage.eliteLogin();
 	  
   }
   
