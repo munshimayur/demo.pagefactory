@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pmxd.qa.testcases.EliteLoginPageTest">
+      <class name="com.pmxd.qa.testcases.EliteMyWebcastPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="logoTest"/>
+          <include name="validateClientSelection"/>
           <include name="setup"/>
+          <include name="titleTest"/>
         </methods>
-      </class> <!-- com.pmxd.qa.testcases.EliteLoginPageTest -->
+      </class> <!-- com.pmxd.qa.testcases.EliteMyWebcastPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

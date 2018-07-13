@@ -16,13 +16,13 @@ public class EliteLoginPage extends TestBase{
 	String elite_logo_xpath=prop.getProperty("elite_logo_xpath");
 	
 	@FindBy(xpath = "//input [@id=\"login\"]")
-	WebElement elite_username;
+	static 	WebElement elite_username;
 	
 	@FindBy(xpath = "//input [@id=\"password\"]")
-	WebElement elite_password;
+	static WebElement elite_password;
 	
 	@FindBy(xpath = "//input [@id=\"loginSubmit\"]")
-	WebElement elite_login;
+	static WebElement elite_login;
 	
 	@FindBy(xpath = "//img [contains (@src, 'elite_logo.png')]")
 	WebElement elite_logo;
@@ -50,6 +50,8 @@ public class EliteLoginPage extends TestBase{
 		return new EliteMyWebcastPage();
 		
 	}
+	
+	
 	
 
 	

@@ -23,8 +23,15 @@ public class EliteMyWebcastPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void selectClient() {
-		com.pmxd.qa.util.TestUtil.ddSelect(ClientDropdown, "PMXDMPD");
+	public void selectClient(String Client) {
+		com.pmxd.qa.util.TestUtil.ddSelect(ClientDropdown, Client);
+		
+		
+	}
+	
+	public String validateEliteMyWebcastTitle() {
+		return driver.getTitle();
+		
 	}
 	
 
