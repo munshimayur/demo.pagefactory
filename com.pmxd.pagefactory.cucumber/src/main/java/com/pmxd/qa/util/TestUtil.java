@@ -11,7 +11,7 @@ public class TestUtil {
 	
 	public static void ddSelect(WebElement DropdownLocator, String SelectValue) {
 		Select dropdown = new Select(DropdownLocator);  
-		dropdown.selectByVisibleText("SelectValue"); 
+		dropdown.selectByVisibleText(SelectValue); 
 	}
 	
 }

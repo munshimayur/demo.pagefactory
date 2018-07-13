@@ -5,9 +5,9 @@
     <classes>
       <class name="com.pmxd.qa.testcases.EliteMyWebcastPageTest">
         <methods>
-          <include name="validateClientSelection"/>
+          <include name="tearDown"/>
+          <include name="validateClientSelectionTest"/>
           <include name="setup"/>
-          <include name="titleTest"/>
         </methods>
       </class> <!-- com.pmxd.qa.testcases.EliteMyWebcastPageTest -->
     </classes>
