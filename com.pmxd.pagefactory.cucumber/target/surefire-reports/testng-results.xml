@@ -2,70 +2,70 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="152902" started-at="2018-07-13T10:31:44Z" finished-at="2018-07-13T10:34:17Z">
+  <suite name="Surefire suite" duration-ms="139074" started-at="2018-07-18T10:07:11Z" finished-at="2018-07-18T10:09:30Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="152902" started-at="2018-07-13T10:31:44Z" finished-at="2018-07-13T10:34:17Z">
+    <test name="Surefire test" duration-ms="139074" started-at="2018-07-18T10:07:11Z" finished-at="2018-07-18T10:09:30Z">
       <class name="com.pmxd.qa.testcases.EliteMyWebcastPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@60addb54]" name="setup" is-config="true" duration-ms="29626" started-at="2018-07-13T16:02:47Z" finished-at="2018-07-13T16:03:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@3f2a3a5]" name="setup" is-config="true" duration-ms="30297" started-at="2018-07-18T15:38:23Z" finished-at="2018-07-18T15:38:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@60addb54]" name="titleTest" duration-ms="33" started-at="2018-07-13T16:03:16Z" finished-at="2018-07-13T16:03:16Z">
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@3f2a3a5]" name="titleTest" duration-ms="13" started-at="2018-07-18T15:38:53Z" finished-at="2018-07-18T15:38:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@60addb54]" name="tearDown" is-config="true" duration-ms="713" started-at="2018-07-13T16:03:16Z" finished-at="2018-07-13T16:03:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@3f2a3a5]" name="tearDown" is-config="true" duration-ms="708" started-at="2018-07-18T15:38:53Z" finished-at="2018-07-18T15:38:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@60addb54]" name="setup" is-config="true" duration-ms="41999" started-at="2018-07-13T16:03:17Z" finished-at="2018-07-13T16:03:59Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@3f2a3a5]" name="setup" is-config="true" duration-ms="27833" started-at="2018-07-18T15:38:54Z" finished-at="2018-07-18T15:39:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateClientSelectionTest()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@60addb54]" name="validateClientSelectionTest" duration-ms="16751" started-at="2018-07-13T16:03:59Z" finished-at="2018-07-13T16:04:16Z">
+        <test-method status="PASS" signature="validateClientSelectionTest()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@3f2a3a5]" name="validateClientSelectionTest" duration-ms="7067" started-at="2018-07-18T15:39:22Z" finished-at="2018-07-18T15:39:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClientSelectionTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@60addb54]" name="tearDown" is-config="true" duration-ms="680" started-at="2018-07-13T16:04:16Z" finished-at="2018-07-13T16:04:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteMyWebcastPageTest@3f2a3a5]" name="tearDown" is-config="true" duration-ms="684" started-at="2018-07-18T15:39:29Z" finished-at="2018-07-18T15:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pmxd.qa.testcases.EliteMyWebcastPageTest -->
       <class name="com.pmxd.qa.testcases.EliteLoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="setup" is-config="true" duration-ms="14331" started-at="2018-07-13T16:01:44Z" finished-at="2018-07-13T16:01:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="setup" is-config="true" duration-ms="13457" started-at="2018-07-18T15:37:11Z" finished-at="2018-07-18T15:37:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="titleTest" duration-ms="23" started-at="2018-07-13T16:01:58Z" finished-at="2018-07-13T16:01:58Z">
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="titleTest" duration-ms="6457" started-at="2018-07-18T15:37:24Z" finished-at="2018-07-18T15:37:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="tearDown" is-config="true" duration-ms="669" started-at="2018-07-13T16:01:58Z" finished-at="2018-07-13T16:01:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="tearDown" is-config="true" duration-ms="817" started-at="2018-07-18T15:37:30Z" finished-at="2018-07-18T15:37:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="setup" is-config="true" duration-ms="13023" started-at="2018-07-13T16:01:59Z" finished-at="2018-07-13T16:02:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="setup" is-config="true" duration-ms="17282" started-at="2018-07-18T15:37:31Z" finished-at="2018-07-18T15:37:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoTest()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="logoTest" duration-ms="6402" started-at="2018-07-13T16:02:12Z" finished-at="2018-07-13T16:02:18Z">
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="logoTest" duration-ms="67" started-at="2018-07-18T15:37:49Z" finished-at="2018-07-18T15:37:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="tearDown" is-config="true" duration-ms="669" started-at="2018-07-13T16:02:18Z" finished-at="2018-07-13T16:02:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="tearDown" is-config="true" duration-ms="929" started-at="2018-07-18T15:37:49Z" finished-at="2018-07-18T15:37:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="setup" is-config="true" duration-ms="17516" started-at="2018-07-13T16:02:19Z" finished-at="2018-07-13T16:02:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="setup" is-config="true" duration-ms="12293" started-at="2018-07-18T15:37:50Z" finished-at="2018-07-18T15:38:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="loginTest" duration-ms="9767" started-at="2018-07-13T16:02:36Z" finished-at="2018-07-13T16:02:46Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="loginTest" duration-ms="20458" started-at="2018-07-18T15:38:02Z" finished-at="2018-07-18T15:38:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@6b143ee9]" name="tearDown" is-config="true" duration-ms="675" started-at="2018-07-13T16:02:46Z" finished-at="2018-07-13T16:02:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pmxd.qa.testcases.EliteLoginPageTest@1936f0f5]" name="tearDown" is-config="true" duration-ms="682" started-at="2018-07-18T15:38:22Z" finished-at="2018-07-18T15:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
